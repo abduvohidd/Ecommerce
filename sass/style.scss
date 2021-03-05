@@ -1,0 +1,59 @@
+$fontsize: 10px;
+$fontsize-1: 12px;
+$fontsize-2: 13px;
+$fontsize-3: 14px;
+$fontsize-4: 15px;
+$fontsize-5: 16px;
+$fontsize-6: 18px;
+$fontsize-7: 20px;
+$fonsize-8: 21px;
+$fontsize-9: 22px;
+$fontsize-10: 38px;
+
+$fontfamily: "Poppins", sans-serif;
+
+$color-1: #0156ff;
+$color-2: #666666;
+$color-3: white;
+$color-4: black;
+$color-5: #272560;
+$color-6: #8c8c8c;
+$color-7: #acacac;
+
+$background-1: #0156ff;
+$background-2: #e9a426;
+$background-3: #020202;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin navbar {
+  font-style: normal;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  align-items: center;
+}
+
+@mixin text {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 19px;
+}
+
+@mixin footer-text {
+  font-style: normal;
+  font-weight: bold;
+  line-height: 0.1;
+}
+
+
+@import "footer";
+@import "swiper";
+@import "zip";
+
+@import "media";
